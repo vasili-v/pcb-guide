@@ -44,10 +44,4 @@ The electrical specifications align seamlessly, the power budget is well within 
 
 While the verification steps mentioned above justify moving into the schematic capture phase, questions can sometimes arise regarding the basic operation of a specific circuit block. To demonstrate how to eliminate such uncertainties before starting the whole device design, a brief detour can be taken to verify, for example, the core functionality of the MOSFET-based reverse-polarity protection circuit. The process involves simulating its behavior using KiCad's built-in SPICE simulator, followed by a physical bench test on a breadboard.
 
-The step-by-step validation process is detailed in the [Reverse Polarity Protection Detour Guide](01a-Detour-Reverse-Polarity.md).
-
-## Detour: Validating the Unknowns
-
-While the verification steps mentioned above justify moving into the schematic capture phase, questions can sometimes arise regarding the basic operation of a specific circuit block. To demonstrate how to eliminate such uncertainties before starting the whole device design, a brief detour can be taken to verify, for example, the core functionality of the MOSFET-based reverse-polarity protection circuit. The process involves simulating its behavior using KiCad's built-in SPICE simulator, followed by a physical bench test on a breadboard.
-
 The step-by-step validation process is detailed in the [Reverse Polarity Protection Detour Guide](./01a-Detour-Reverse-Polarity.md).
